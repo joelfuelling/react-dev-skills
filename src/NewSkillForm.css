@@ -1,0 +1,42 @@
+.NewSkillForm {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(128, 36, 0);
+    text-align: left;
+    border: 0.2rem solid rgb(86, 53, 4);
+    border-radius: 0.3rem;
+    padding: 1rem;
+  }
+
+  .NewSkillForm label {
+    display: flex;
+    grid-column: span 2;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+  
+  .NewSkillForm label input,
+  .NewSkillForm label select {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(128, 36, 0);
+    padding: 0.2rem;
+    border: 0.2rem solid rgb(147, 44, 3);
+    border-radius: 0.3rem;
+    outline: none;
+  }
+  
+  .NewSkillForm button {
+    grid-column: span 2;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(128, 36, 0);
+    padding: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: 0.2rem solid rgb(147, 44, 3);
+    border-radius: 0.3rem;
+  }
