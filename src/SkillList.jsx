@@ -5,7 +5,7 @@ export default function SkillList({skills}){
         <>
         <ul>
            { skills.map((skill, index) => (
-            <SkillListItem text={skill.name} level={skill.level} index={index} key={index} />
+            <SkillListItem className='list-level' text={skill.name} level={skill.level} index={index} key={index} />
             ))  
             }
         </ul>
